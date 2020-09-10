@@ -1,0 +1,27 @@
+@import '~normalize.css';
+*,
+*::after,
+*::before{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+button {
+  outline: none;
+}
+
+.btn-link {
+  background: darkblue;
+  color: #ffffff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.5em 0.9em;
+}
+
+.btn {
+  cursor: pointer;
+  border: none;
+}
